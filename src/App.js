@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import Container from './components/Container';
+import SideNavbar from './components/SideNavbar';
+import Display from './components/Display';
 
 function App() {
+  const [writeNotes,setWriteNotes]=useState(false)
+  const [dis,setDis]=useState(false)
+  const [object,setObject]=useState({
+    title:"",
+    text:""
+    
+  })
+  const [arr, setArr]=useState([])
+  // function addtitle(title){
+  //   setObject({...object,title:title})
+  // }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <SideNavbar setObject={setObject} object={object} arr={arr} setArr={setArr} setWriteNotes={setWriteNotes} writeNotes={writeNotes} dis={dis} setDis={setDis}></SideNavbar>
+        <Display object={object} setObject={setObject} arr={arr} setArr={setArr} setWriteNotes={setWriteNotes} writeNotes={writeNotes} dis={dis} setDis={setDis}></Display>
+      </Container>
     </div>
   );
 }
