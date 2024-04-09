@@ -1,71 +1,55 @@
-# Getting Started with Create React App
+Notes App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Notes App is a simple web application that allows users to create, view, edit, and delete notes. It provides a user-friendly interface for managing notes efficiently.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+- Create Notes: Users can create new notes by providing a title and content.
+- View Notes: Users can view a list of all their notes with titles and snippets of content.
+- Edit Notes: Users can edit existing notes to update the title or content.
+- Delete Notes: Users can delete notes they no longer need.
+- Responsive Design: The app is designed to be responsive and works well on various screen sizes.
+- Save in Local Storage : Allow users to save notes in Local Storage.
 
-### `npm start`
+  
+Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+    git clone https://github.com/Md-Azmir/Notes-App.git
+3. Install dependencies:
+ 
+    cd Notes-App
+   
+    npm install
+4. Start the server:
+5. 
+    npm start
+6. Open your web browser and go to http://localhost:3000 to access the Notes App.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Create a new note by clicking on the "New Note" button and filling out the title and content fields.
+2. View all existing notes on the homepage.
+3. Click on a note to view its full content.
+4. Edit or delete a note by clicking on the respective buttons next to each note.
 
-### `npm run eject`
+Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+App Look
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="1440" alt="Screenshot 2024-03-18 at 8 39 12 PM" src="https://github.com/Md-Azmir/Notes-App/assets/153702739/9a290ba5-3800-441e-8e12-ba6cedf6d413">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributors
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Md Azmir
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Notes-App
